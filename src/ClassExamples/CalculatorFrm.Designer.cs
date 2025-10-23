@@ -1,6 +1,6 @@
 ﻿namespace ClassExamples
 {
-    partial class Form1
+    partial class CalculatorFrm
     {
         /// <summary>
         ///  Required designer variable.
@@ -65,9 +65,9 @@
             button1.TabIndex = 3;
             button1.Text = "Sumar";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            button1.Click += Button1_Click;
             // 
-            // Form1
+            // CalculatorFrm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -76,7 +76,7 @@
             Controls.Add(lblResult);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            Name = "Form1";
+            Name = "CalculatorFrm";
             Text = "Principal";
             ResumeLayout(false);
             PerformLayout();
