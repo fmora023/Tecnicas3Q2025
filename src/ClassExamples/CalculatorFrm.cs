@@ -41,7 +41,6 @@ namespace ClassExamples
                 MessageBox.Show(exception.Message);
                 this.lblResult.Text = "Error";
             }
-
         }
     }
 }

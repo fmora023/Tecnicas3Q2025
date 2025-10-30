@@ -21,7 +21,7 @@ namespace ClassExampleController
         {
             if (operation.Equals(Operations.Add))
             {
-                return this.Add(input1, input2);
+                return Add(input1, input2);
             }
 
             return 0;
@@ -33,7 +33,7 @@ namespace ClassExampleController
         /// <param name="input1">The input1.</param>
         /// <param name="input2">The input2.</param>
         /// <returns>input1 plus input2 result.</returns>
-        private int Add(int input1, int input2)
+        private static int Add(int input1, int input2)
         {
             return input1 + input2;
         }
