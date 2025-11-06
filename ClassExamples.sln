@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassExampleController", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassExampleConsole", "src\ClassExampleConsole\ClassExampleConsole.csproj", "{13C075AE-E7DC-4907-B887-AFDECD447203}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassExampleModels", "src\ClassExampleModels\ClassExampleModels.csproj", "{2A20603E-9538-4593-B7F4-5BE3108C4EE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{13C075AE-E7DC-4907-B887-AFDECD447203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13C075AE-E7DC-4907-B887-AFDECD447203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13C075AE-E7DC-4907-B887-AFDECD447203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A20603E-9538-4593-B7F4-5BE3108C4EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A20603E-9538-4593-B7F4-5BE3108C4EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A20603E-9538-4593-B7F4-5BE3108C4EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A20603E-9538-4593-B7F4-5BE3108C4EE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

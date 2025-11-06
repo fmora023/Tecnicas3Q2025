@@ -19,5 +19,15 @@
 
             return result;
         }
+
+        /// <summary>
+        /// Validates the string.
+        /// </summary>
+        /// <param name="value">The value.</param>
+        /// <returns>true if string is nor empty or null.</returns>
+        public static bool IsValidadString(this string value)
+        {
+            return !string.IsNullOrEmpty(value);
+        }
     }
 }
