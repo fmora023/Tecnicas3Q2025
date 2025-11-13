@@ -42,7 +42,7 @@ namespace ClassExamples
             if (loginValidation)
             {
                 MessageBox.Show($"Login Successful! Welcome {userName}!");
-                var formMainView = new CalculatorFrm(new OperationsHandler());
+                var formMainView = new CalculatorFrm(new OperationsHandler(), this.loginController.UserHandler);
                 formMainView.Show();
                 return true;
             }

@@ -24,7 +24,7 @@ namespace ClassExampleController.Abstractions
         /// <value>
         /// The costumers.
         /// </value>
-        public List<Customer> Costumers { get; set; } = new List<Customer>();
+        public List<Customer> Custumers { get; set; } = new List<Customer>();
 
         /// <summary>
         /// Saves the users.
@@ -33,7 +33,7 @@ namespace ClassExampleController.Abstractions
         /// <returns>true if succeded otherwise false.</returns>
         public bool SaveUsers(string fileName)
         {
-            return dataHandler.SaveData(Costumers, fileName);
+            return dataHandler.SaveData(Custumers, fileName);
         }
 
         /// <summary>
@@ -43,8 +43,8 @@ namespace ClassExampleController.Abstractions
         /// <returns>true if succeded otherwise false.</returns>
         public bool LoadUsers(string fileName)
         {
-            this.Costumers = dataHandler.LoadData(fileName);
-            if (this.Costumers != null && this.Costumers.Count > 0)
+            this.Custumers = dataHandler.LoadData(fileName);
+            if (this.Custumers != null && this.Custumers.Count > 0)
             {
                 return true;
             }

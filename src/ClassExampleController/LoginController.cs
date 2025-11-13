@@ -7,7 +7,7 @@ namespace ClassExampleController
     /// </summary>
     public class LoginController
     {
-        private readonly UserHandler userHandler;
+        public readonly UserHandler UserHandler;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="LoginController"/> class.
@@ -15,7 +15,7 @@ namespace ClassExampleController
         /// <param name="userHandler">The user handler.</param>
         public LoginController(UserHandler userHandler)
         {
-            this.userHandler = userHandler;
+            this.UserHandler = userHandler;
         }
 
         /// <summary>
@@ -31,7 +31,7 @@ namespace ClassExampleController
                 return false;
             }
 
-            foreach (var costumer in userHandler.Costumers)
+            foreach (var costumer in UserHandler.Custumers)
             {
                 if (costumer.Username == userName && costumer.Password == password)
                 {

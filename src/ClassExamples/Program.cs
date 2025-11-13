@@ -6,9 +6,6 @@ namespace ClassExamples
 {
     internal static class Program
     {
-        // Recuerden actualizar esta ruta al clonar el repositorio
-        private const string CostumersFilePath = @"S:\Personal\UPI\Tecnicas de Programacion\Code\Repo3Q2025\users.csv";
-
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
@@ -25,7 +22,7 @@ namespace ClassExamples
         private static LoginController LoadControllerService()
         {
             var userHandler = new UserHandler(new FileHandler<Customer>());
-            var couldLoadUsers = userHandler.LoadUsers(CostumersFilePath);
+            var couldLoadUsers = userHandler.LoadUsers(Generals.FileNameUsers);
             if (!couldLoadUsers)
             {
                 MessageBox.Show("Could not load users from data source. The application will close.");

@@ -9,6 +9,13 @@ namespace ClassExampleModels
         /// <summary>
         /// Initializes a new instance of the <see cref="Customer"/> class.
         /// </summary>
+        internal Customer()
+        {
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Customer"/> class.
+        /// </summary>
         /// <param name="name">The name.</param>
         /// <param name="lastName">The last name.</param>
         /// <param name="username">The username.</param>
@@ -16,7 +23,6 @@ namespace ClassExampleModels
         /// <param name="directions">The directions.</param>
         public Customer(string name, string lastName, string username, string password, string directions)
         {
-            // CAMBIO
             this.Name = name;
             this.LastName = lastName;
             this.Username = username;

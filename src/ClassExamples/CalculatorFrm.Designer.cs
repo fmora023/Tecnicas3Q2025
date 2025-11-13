@@ -32,6 +32,7 @@
             textBox2 = new TextBox();
             lblResult = new Label();
             button1 = new Button();
+            btnReceive = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -67,15 +68,27 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += Button1_Click;
             // 
+            // btnReceive
+            // 
+            btnReceive.Location = new Point(376, 530);
+            btnReceive.Name = "btnReceive";
+            btnReceive.Size = new Size(115, 29);
+            btnReceive.TabIndex = 4;
+            btnReceive.Text = "Get Receive";
+            btnReceive.UseVisualStyleBackColor = true;
+            btnReceive.Click += btnReceive_Click;
+            // 
             // CalculatorFrm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(900, 600);
+            Controls.Add(btnReceive);
             Controls.Add(button1);
             Controls.Add(lblResult);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
+            IsMdiContainer = true;
             Name = "CalculatorFrm";
             Text = "Principal";
             ResumeLayout(false);
@@ -88,5 +101,6 @@
         private TextBox textBox2;
         private Label lblResult;
         private Button button1;
+        private Button btnReceive;
     }
 }
