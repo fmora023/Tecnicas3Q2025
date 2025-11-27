@@ -9,5 +9,15 @@
         /// Addition operation.
         /// </summary>
         Add,
+
+        /// <summary>
+        /// The multiplication operation.
+        /// </summary>
+        Mult,
+
+        /// <summary>
+        /// The division operation.
+        /// </summary>
+        Div,
     }
 }

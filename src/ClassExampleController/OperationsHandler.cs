@@ -23,8 +23,12 @@ namespace ClassExampleController
             {
                 return Add(input1, input2);
             }
+            else if (operation.Equals(Operations.Mult))
+            {
+                return Mult(input1, input2);
+            }
 
-            return 0;
+            throw new NotSupportedException($"The operation '{operation}' is not supported.");
         }
 
         /// <summary>
@@ -36,6 +40,17 @@ namespace ClassExampleController
         private static int Add(int input1, int input2)
         {
             return input1 + input2;
+        }
+
+        /// <summary>
+        /// Mults the specified input1.
+        /// </summary>
+        /// <param name="input1">The input1.</param>
+        /// <param name="input2">The input2.</param>
+        /// <returns></returns>
+        private static int Mult(int input1, in int input2)
+        {
+            return input1 * input2;
         }
     }
 }
