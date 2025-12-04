@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassExampleController.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassExampleBlazor", "src\ClassExampleBlazor\ClassExampleBlazor.csproj", "{B1C89C74-A3AB-4439-8A4E-4BC43D25F669}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassExamples.Test", "test\ClassExamples.Test\ClassExamples.Test.csproj", "{D835BB76-BB21-4AD1-A3A0-15413568AA34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,12 +49,17 @@ Global
 		{B1C89C74-A3AB-4439-8A4E-4BC43D25F669}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1C89C74-A3AB-4439-8A4E-4BC43D25F669}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1C89C74-A3AB-4439-8A4E-4BC43D25F669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D835BB76-BB21-4AD1-A3A0-15413568AA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D835BB76-BB21-4AD1-A3A0-15413568AA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D835BB76-BB21-4AD1-A3A0-15413568AA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D835BB76-BB21-4AD1-A3A0-15413568AA34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4551E1DB-9E7A-4893-85BC-D206D64A9D82} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D835BB76-BB21-4AD1-A3A0-15413568AA34} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DD91656-83FF-4B23-B2CB-81E3982C7784}
