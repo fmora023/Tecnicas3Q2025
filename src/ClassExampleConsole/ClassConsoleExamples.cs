@@ -2,6 +2,9 @@
 
 namespace ClassExampleConsole
 {
+    /// <summary>
+    /// Class containing console examples.
+    /// </summary>
     public static class ClassConsoleExamples
     {
         /// <summary>
@@ -156,6 +159,13 @@ namespace ClassExampleConsole
             return -1;
         }
 
+        /// <summary>
+        /// Gets all indexes of character.
+        /// </summary>
+        /// <param name="input">The input.</param>
+        /// <param name="character">The character.</param>
+        /// <returns></returns>
+        /// <exception cref="System.ArgumentException">Input string cannot be null or empty.</exception>
         public static List<int> GetAllIndexesOfChar(string input, char character)
         {
             if (string.IsNullOrEmpty(input))
